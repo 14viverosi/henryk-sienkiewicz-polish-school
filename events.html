@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Henryk Sienkiewicz Polish School</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+                    <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+                    <div class="logo-text">Henryk Sienkiewicz <span>Polish School</span></div>
+                </a>
+            </div>
+            <button class="hamburger">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Strona Główna</a></li>
+                <li><a href="announcements.html" data-i18n="nav_announcements">Ogłoszenia</a></li>
+                <li><a href="events.html" class="active" data-i18n="nav_events">Wydarzenia</a></li>
+                <li><a href="about.html" data-i18n="nav_about">O Nas</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
+                <li><button id="lang-toggle" class="lang-toggle">English</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 4rem 1rem;">
+            <h1 data-i18n="events_title">Wydarzenia Szkolne</h1>
+            <p data-i18n="events_subtitle">Dołącz do nas na zabawę, naukę i świętowanie!</p>
+        </section>
+
+        <section class="section">
+            <div class="calendar-widget">
+                <div class="cal-header">
+                    <button id="cal-prev" class="cal-nav-btn">&lt;</button>
+                    <h2 id="cal-month-year">Month Year</h2>
+                    <button id="cal-next" class="cal-nav-btn">&gt;</button>
+                </div>
+                <div id="cal-days-header" class="cal-days-header">
+                    <!-- JS generated -->
+                </div>
+                <div id="cal-grid" class="cal-grid">
+                    <!-- JS generated -->
+                </div>
+            </div>
+
+            <!-- Fallback / CTA -->
+            <div style="text-align: center; margin-top: 3rem;">
+                <p data-i18n="events_fb_desc">Aby uzyskać najnowsze informacje o naszych nadchodzących wydarzeniach,
+                    odwiedź naszą oficjalną stronę wydarzeń na Facebooku.</p>
+                <a href="https://www.facebook.com/HSPSCLE/events" target="_blank" class="btn btn-primary"
+                    style="margin-top: 1rem;" data-i18n="events_btn_fb">
+                    Zobacz Wydarzenia na FB
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer_rights">&copy; 2026 Polska Szkoła im. Henryka Sienkiewicza. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/calendar.js"></script>
+</body>
+
+</html>

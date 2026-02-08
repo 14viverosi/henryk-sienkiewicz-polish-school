@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Henryk Sienkiewicz Polish School</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+                    <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+                    <div class="logo-text">Henryk Sienkiewicz <span>Polish School</span></div>
+                </a>
+            </div>
+            <button class="hamburger">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Strona Główna</a></li>
+                <li><a href="announcements.html" data-i18n="nav_announcements">Ogłoszenia</a></li>
+                <li><a href="events.html" data-i18n="nav_events">Wydarzenia</a></li>
+                <li><a href="about.html" data-i18n="nav_about">O Nas</a></li>
+                <li><a href="contact.html" class="active" data-i18n="nav_contact">Kontakt</a></li>
+                <li><button id="lang-toggle" class="lang-toggle">English</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 4rem 1rem;">
+            <h1 data-i18n="contact_title">Skontaktuj się z nami</h1>
+        </section>
+
+        <section class="section" style="max-width: 800px;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+
+                <div class="contact-info">
+                    <h2 data-i18n="contact_info_title">Informacje Kontaktowe</h2>
+                    <p data-i18n="contact_info_desc">Masz pytania dotyczące zapisów lub naszych zajęć? Chętnie
+                        odpowiemy!</p>
+
+                    <div style="margin-top: 2rem;">
+                        <h4 style="color: var(--color-primary-red);" data-i18n="contact_address_title">Adres</h4>
+                        <p>Polish American Cultural Center<br>
+                            6501 Lansing Ave<br>
+                            Cleveland, OH 44105</p>
+                    </div>
+
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary-red);" data-i18n="contact_email_title">Email</h4>
+                        <p><a href="mailto:info@hspscle.org">info@hspscle.org</a></p>
+                    </div>
+
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary-red);" data-i18n="contact_social_title">Media
+                            Społecznościowe</h4>
+                        <p><a href="https://www.facebook.com/HSPSCLE" target="_blank"
+                                style="color: var(--color-accent-blue); font-weight: bold;"
+                                data-i18n="contact_social_link">Odwiedź nas na Facebooku</a></p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2 data-i18n="contact_form_title">Wyślij Wiadomość</h2>
+                    <form style="display: flex; flex-direction: column; gap: 1rem;">
+                        <input type="text" placeholder="Twoje Imię"
+                            style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px;"
+                            data-i18n="contact_ph_name">
+                        <input type="email" placeholder="Twój Email"
+                            style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px;"
+                            data-i18n="contact_ph_email">
+                        <textarea rows="5" placeholder="W czym możemy pomóc?"
+                            style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px; font-family: inherit;"
+                            data-i18n="contact_ph_msg"></textarea>
+                        <button type="submit" class="btn btn-primary" style="align-self: flex-start; border: none;"
+                            data-i18n="contact_btn_send">Wyślij Wiadomość</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer_rights">&copy; 2026 Polska Szkoła im. Henryka Sienkiewicza. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

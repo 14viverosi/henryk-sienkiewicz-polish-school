@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Henryk Sienkiewicz Polish School</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+                    <img src="assets/images/logo.png" alt="Logo" class="logo-img">
+                    <div class="logo-text">Henryk Sienkiewicz <span>Polish School</span></div>
+                </a>
+            </div>
+            <button class="hamburger">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Strona Główna</a></li>
+                <li><a href="announcements.html" data-i18n="nav_announcements">Ogłoszenia</a></li>
+                <li><a href="events.html" data-i18n="nav_events">Wydarzenia</a></li>
+                <li><a href="about.html" class="active" data-i18n="nav_about">O Nas</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact">Kontakt</a></li>
+                <li><button id="lang-toggle" class="lang-toggle">English</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="padding: 4rem 1rem;">
+            <h1 data-i18n="about_title">O Nas</h1>
+        </section>
+
+        <section class="section">
+            <div style="max-width: 800px; margin: 0 auto;">
+                <h2 data-i18n="about_story_title">Nasza Historia</h2>
+                <p data-i18n="about_story_p1">Witamy w Polskiej Szkole im. Henryka Sienkiewicza! Od lat jesteśmy filarem
+                    polskiej społeczności w Cleveland, dbając o zachowanie naszego bogatego dziedzictwa dla przyszłych
+                    pokoleń.</p>
+                <p data-i18n="about_story_p2">Nasza szkoła nosi imię laureata Nagrody Nobla, Henryka Sienkiewicza,
+                    którego dzieła zainspirowały miliony. Podążając jego śladami, pragniemy inspirować naszych uczniów
+                    pięknem polskiego języka i kultury.</p>
+
+                <h2 style="margin-top: 3rem;" data-i18n="about_mission_title">Nasza Misja</h2>
+                <p data-i18n="about_mission_intro">Wierzymy, że nauka powinna być zabawna, angażująca i wartościowa.
+                    Naszą misją jest:</p>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li style="margin-bottom: 0.5rem;" data-i18n="about_mission_1">📚 Uczyć języka polskiego w sposób
+                        efektywny.</li>
+                    <li style="margin-bottom: 0.5rem;" data-i18n="about_mission_2">🇵🇱 Celebrować polskie tradycje i
+                        święta.</li>
+                    <li style="margin-bottom: 0.5rem;" data-i18n="about_mission_3">🤝 Budować trwałe przyjaźnie w
+                        społeczności.</li>
+                </ul>
+
+                <h2 style="margin-top: 3rem;" data-i18n="about_team_title">Nasz Zespół</h2>
+                <p data-i18n="about_team_desc">Nasi nauczyciele są pełni pasji, doświadczeni i oddani tworzeniu ciepłego
+                    środowiska nauczania dla każdego dziecka.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer_rights">&copy; 2026 Polska Szkoła im. Henryka Sienkiewicza. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
