@@ -19,7 +19,10 @@
             <div class="logo-container">
                 <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
                     <img src="assets/images/logo.png" alt="Logo" class="logo-img">
-                    <div class="logo-text">Henryk Sienkiewicz <span>Polish School</span></div>
+                    <div class="logo-text">
+                        <span data-i18n="logo_header">Polska Szkoła im. Henryka Sienkiewicza</span>
+                        <span class="logo-subheader" data-i18n="logo_subheader">Henryk Sienkiewicz Polish School</span>
+                    </div>
                 </a>
             </div>
             <button class="hamburger">☰</button>
@@ -49,14 +52,20 @@
 
                     <div style="margin-top: 2rem;">
                         <h4 style="color: var(--color-primary-red);" data-i18n="contact_address_title">Adres</h4>
-                        <p>Polish American Cultural Center<br>
-                            6501 Lansing Ave<br>
-                            Cleveland, OH 44105</p>
+                        <p>
+                            6151 Smith Rd<br>
+                            Brook Park, OH 44142</p>
                     </div>
 
                     <div style="margin-top: 1.5rem;">
                         <h4 style="color: var(--color-primary-red);" data-i18n="contact_email_title">Email</h4>
-                        <p><a href="mailto:info@hspscle.org">info@hspscle.org</a></p>
+                        <p><a href="mailto:hspolishschool@gmail.com">hspolishschool@gmail.com</a></p>
+                    </div>
+
+                    <div style="margin-top: 1.5rem;">
+                        <h4 style="color: var(--color-primary-red);" data-i18n="contact_phone_title">Telefon</h4>
+                        <p>Director: Ewa Wiechec</p>
+                        <p><a href="tel:4405371485">(440) 537-1485</a></p>
                     </div>
 
                     <div style="margin-top: 1.5rem;">
@@ -70,19 +79,20 @@
 
                 <div class="contact-form">
                     <h2 data-i18n="contact_form_title">Wyślij Wiadomość</h2>
-                    <form style="display: flex; flex-direction: column; gap: 1rem;">
-                        <input type="text" placeholder="Twoje Imię"
+                    <form id="contact-form" style="display: flex; flex-direction: column; gap: 1rem;">
+                        <input type="text" name="name" placeholder="Twoje Imię" required
                             style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px;"
                             data-i18n="contact_ph_name">
-                        <input type="email" placeholder="Twój Email"
+                        <input type="email" name="email" placeholder="Twój Email" required
                             style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px;"
                             data-i18n="contact_ph_email">
-                        <textarea rows="5" placeholder="W czym możemy pomóc?"
+                        <textarea name="message" rows="5" placeholder="W czym możemy pomóc?" required
                             style="padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px; font-family: inherit;"
                             data-i18n="contact_ph_msg"></textarea>
                         <button type="submit" class="btn btn-primary" style="align-self: flex-start; border: none;"
                             data-i18n="contact_btn_send">Wyślij Wiadomość</button>
                     </form>
+                    <div id="form-status" style="margin-top: 1rem; display: none;"></div>
                 </div>
             </div>
         </section>
@@ -93,6 +103,7 @@
     </footer>
     <script src="assets/js/translations.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 
 </html>

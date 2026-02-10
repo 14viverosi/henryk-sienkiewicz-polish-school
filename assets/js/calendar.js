@@ -10,7 +10,7 @@ const calendarData = {
         { date: '2026-02-06', title: 'Polska Szkoła', type: 'class' },
         { date: '2026-02-08', title: 'Msza Święta', type: 'mass' },
         { date: '2026-02-14', title: 'Walentynki', type: 'holiday' },
-        { date: '2026-02-13', title: 'Polska Szkoła-Zabawa Olympiada', type: 'special' },
+        { date: '2026-02-13', title: 'Polska Szkoła-Zabawa Olimpiada', type: 'special' },
         { date: '2026-02-20', title: 'Polska Szkoła', type: 'class' },
         { date: '2026-02-22', title: 'Msza Święta', type: 'mass' },
         { date: '2026-02-27', title: 'Polska Szkoła', type: 'class' },
