@@ -35,7 +35,7 @@ const translations = {
         feature_community_title: "Społeczność",
         feature_community_desc: "Tworzymy przyjazne środowisko dla rodzin. Bierzymy aktiwny udział w życiu Polskiej wspołeczności w Cleveland.",
 
-        footer_rights: "© 2026 BridgePoint Automations. Wszelkie prawa zastrzeżone.",
+        footer_rights: "© 2026 Polska Szkoła im. Henryka Sienkiewicza. Wszelkie prawa zastrzeżone.",
         footer_location: "Cleveland, OH",
 
         about_title: "O Nas",
@@ -64,9 +64,9 @@ const translations = {
         contact_social_title: "Media Społecznościowe",
         contact_social_link: "Odwiedź nas na Facebooku",
         contact_form_title: "Wyślij Wiadomość",
-        contact_ph_name: "Twoje Imię",
-        contact_ph_email: "Twój Email",
-        contact_ph_msg: "W czym możemy pomóc?",
+        contact_ph_name: "Twoje Imię *",
+        contact_ph_email: "Twój Email *",
+        contact_ph_msg: "W czym możemy pomóc? *",
         contact_btn_send: "Wyślij Wiadomość",
 
         lang_toggle: "English",
@@ -118,7 +118,7 @@ const translations = {
         feature_community_title: "Community",
         feature_community_desc: "Creating a welcoming environment for families to connect and share their heritage in Cleveland.",
 
-        footer_rights: "© 2026 BridgePoint Automations. All Rights Reserved.",
+        footer_rights: "© 2026 Henryk Sienkiewicz Polish School. All Rights Reserved.",
         footer_location: "Cleveland, OH",
 
         about_title: "About Us",
@@ -147,9 +147,9 @@ const translations = {
         contact_social_title: "Social",
         contact_social_link: "Visit us on Facebook",
         contact_form_title: "Send a Message",
-        contact_ph_name: "Your Name",
-        contact_ph_email: "Your Email",
-        contact_ph_msg: "How can we help?",
+        contact_ph_name: "Your Name *",
+        contact_ph_email: "Your Email *",
+        contact_ph_msg: "How can we help? *",
         contact_btn_send: "Send Message",
 
         lang_toggle: "Polski",
