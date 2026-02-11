@@ -52,8 +52,8 @@ const translations = {
         events_subtitle: "Dołącz do nas na naukę, zabawę i świętowanie!",
         events_desc: "Organizujemy różne wydarzenia w ciągu roku, w tym uroczystości świąteczne, występy uczniów i spotkania społeczności.",
         events_fb_title: "Sprawdź nas na Facebooku!",
-        events_fb_desc: "Aby uzyskać najnowsze informacje o naszych nadchodzących wydarzeniach, odwiedź naszą oficjalną stronę wydarzeń na Facebooku.",
-        events_btn_fb: "Zobacz Wydarzenia na FB",
+        events_fb_desc: "Aby uzyskać najnowsze informacje o naszych nadchodzących wydarzeniach, odwiedź naszą oficjalną stronę na Facebooku.",
+        events_btn_fb: "Zobacz więcej na FB",
 
         contact_title: "Skontaktuj się z nami",
         contact_info_title: "Informacje Kontaktowe",
@@ -135,8 +135,8 @@ const translations = {
         events_subtitle: "Join us for learning, fun, and celebration!",
         events_desc: "We host various events throughout the year, including holiday celebrations, student performances, and community gatherings.",
         events_fb_title: "Check us out on Facebook!",
-        events_fb_desc: "For the most up-to-date information on our upcoming events, please visit our official Facebook Events page.",
-        events_btn_fb: "View Facebook Events",
+        events_fb_desc: "For the most up-to-date information on our upcoming events, please visit our official Facebook page.",
+        events_btn_fb: "See more on FB",
 
         contact_title: "Get in Touch",
         contact_info_title: "Contact Info",
