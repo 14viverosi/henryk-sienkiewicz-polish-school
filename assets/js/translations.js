@@ -35,7 +35,7 @@ const translations = {
         feature_community_title: "Społeczność",
         feature_community_desc: "Tworzymy przyjazne środowisko dla rodzin. Bierzymy aktiwny udział w życiu Polskiej wspołeczności w Cleveland.",
 
-        footer_rights: "© 2026 Polska Szkoła im. Henryka Sienkiewicza. Wszelkie prawa zastrzeżone.",
+        footer_rights: "© 2026 BridgePoint Automations. Wszelkie prawa zastrzeżone.",
         footer_location: "Cleveland, OH",
 
         about_title: "O Nas",
@@ -118,7 +118,7 @@ const translations = {
         feature_community_title: "Community",
         feature_community_desc: "Creating a welcoming environment for families to connect and share their heritage in Cleveland.",
 
-        footer_rights: "© 2026 Henryk Sienkiewicz Polish School. All Rights Reserved.",
+        footer_rights: "© 2026 BridgePoint Automations. All Rights Reserved.",
         footer_location: "Cleveland, OH",
 
         about_title: "About Us",
