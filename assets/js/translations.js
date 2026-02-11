@@ -23,7 +23,7 @@ const translations = {
         home_news_empty: "Brak nowych ogłoszeń.",
 
         hero_title: "Witamy w Naszej Polskiej Szkole",
-        hero_subtitle: "Uczymy języka, pielęgnujemy kulturę, i budujemy silne więzi wśród Polonii.",
+        hero_subtitle: "Uczymy języka, pielęgnujemy kulturę i budujemy silne więzi wśród Polonii.",
         btn_learn_more: "Dowiedz się więcej",
         btn_join_us: "Dołącz do nas",
 
@@ -33,7 +33,7 @@ const translations = {
         feature_culture_title: "Kultura",
         feature_culture_desc: "Celebrujemy polskie tradycje, historię i zwyczaje poprzez angażujące zajęcia z języka polskiego, muzyki i tańca.",
         feature_community_title: "Społeczność",
-        feature_community_desc: "Tworzymy przyjazne środowisko dla rodzin. Bierzymy aktiwny udział w życiu Polskiej społeczności w Cleveland.",
+        feature_community_desc: "Tworzymy przyjazne środowisko dla rodzin. Bierzymy aktywny udział w życiu Polskiej społeczności w Cleveland.",
 
         footer_rights: "© 2026 Polska Szkoła im. Henryka Sienkiewicza. Wszelkie prawa zastrzeżone.",
         footer_location: "Cleveland, OH",
